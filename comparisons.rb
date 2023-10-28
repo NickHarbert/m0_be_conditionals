@@ -102,15 +102,20 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+puts loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
+puts loves_to_play && loves_dog_park
 
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && puppy
+
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: undefined local variable or method 'puppy' for main. I think 
+# I got this answer response since we did not define what a puppy is or how old.
