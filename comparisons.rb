@@ -61,20 +61,25 @@ number_students <= 21
 
 puts 4 < 
 #YOU DO: Explain.
+#This is incomplete since there is nothing 4 is comparing to. 
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This should show false as this is saying 4 is less than the number of books, which is 3.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# True. Comparing the number of friends and siblings.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# True. The number of attendees and meals is not equal. 
+# Someone is going hungry!
 
 
 #-------------------
